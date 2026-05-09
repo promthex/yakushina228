@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Анкета посетителя</title>
+</head>
+<body>
+    <h1>Заполните анкету</h1>
+    <form>
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="genre">Любимый жанр музыки:</label><br>
+        <select id="genre" name="genre">
+            <option value="rock">Рок</option>
+            <option value="jazz">Джаз</option>
+            <option value="classical">Классика</option>
+            <option value="pop">Поп</option>
+            <option value="hiphop">Хип-хоп</option>
+        </select><br><br>
+
+        <label for="comments">Что бы вы хотели узнать о музыкальных жанрах?</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
